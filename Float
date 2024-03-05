@@ -1,0 +1,7 @@
+Cjelobrojni tipovi podataka često nisu dovoljni ukoliko se radi o nekakvim izračunima jer
+rezultati tih izračuna mogu biti realne vrijednosti. 
+Temeljni realni tip u jeziku je dan ključnom riječi float. Uobičajeno se radi o 32-bitnom 
+tipu podatka. Prema standardu jezika mora najmanje podržavati raspon vrijednosti od
+10^−37 do 10^37 uz mogućnost predstavljanja barem šest značajnih znamenki (jednostavno
+rečeno, mora moći prikazati barem šest znamenki ispravno).
+Ukoliko je potrebna veća preciznost i eventualno veći raspon podržanih vrijednosti, nude se još dva realna tipa podatka: double i long double.
