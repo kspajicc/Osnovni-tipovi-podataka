@@ -1,0 +1,26 @@
+Double se koristi za pohranjivanje vrijednosti pomičnog zareza dvostruke preciznosti. 
+To je veća verzija float-a koja može pohraniti stvarne brojeve s preciznošću do 15 decimalnih mjesta.
+Double koristi 64 bita ili 8 bajta memorije.
+Najznačajniji bit (MSB) koristi se za pohranjivanje predznaka broja.
+Sljedećih 11 bitova koristi se za pohranjivanje eksponenta.
+Preostala 52 bita koriste se za pohranu mantise.
+Raspon double je 1,7×10 -308 do 1,7×10 +308 . 
+Može pohraniti vrijednosti do 15 decimalnih točaka bez gubitka preciznosti.
+Specifikator formata za double je %lf.
+
+
+
+#include <stdio.h> 
+
+int main() 
+{ 
+	/
+	double myVariable = 789.123456; 
+	printf("Double vrijednost je %lf", myVariable); 
+	//%lf ili %f može biti korišten
+	// print Float vrijednost 
+	return 0; 
+}
+
+IZLAZ
+Double vrijednost je 789,123456
