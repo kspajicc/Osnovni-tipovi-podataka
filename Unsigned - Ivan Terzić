@@ -1,0 +1,15 @@
+U programiranju, “unsigned” je kvalifikator koji se koristi za deklaraciju cjelobrojnih tipova podataka. Evo nekoliko ključnih stvari o “unsigned” tipu:
+
+Značenje: Kada koristimo “unsigned”, to označava da varijabla može sadržavati samo pozitivne brojeve. Nasuprot tome, “signed” varijable mogu imati i negativne i pozitivne vrijednosti.
+Primjena: Ovaj kvalifikator možemo primjeniti na većinu numeričkih tipova podataka, uključujući int, char, short i long.
+Opseg vrijednosti: Unsigned cjelobrojni tipovi mogu imati vrijednosti između 0 i (2^n-1), gdje je n broj bitova. Drugim riječima, unsigned brojevi su uvijek pozitivni ili nula.
+Primjer: Evo jednostavnog primjera korištenja unsigned tipa:
+#include <stdio.h>
+
+int main() {
+    unsigned int broj = 42;
+    printf("Vrijednost unsigned broja: %u\n", broj);
+    return 0;
+}
+U ovom primjeru, broj je deklariran kao unsigned int, što znači da može sadržavati samo pozitivne vrijednosti.
+Napomena: Korištenje unsigned bez eksplicitnog navođenja tipa (npr. unsigned int) se smatra lošom praksom, ali je i dalje prisutno u nekim starijim kodovima . Preporučuje se da uvijek koristite potpune deklaracije tipova kako biste izbjegli nesporazume i olakšali čitanje koda.
