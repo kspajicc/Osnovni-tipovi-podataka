@@ -1,2 +1,10 @@
 Jedan od osnovnih tipova podataka u programskom jeziku C je cjelobrojni tip podatka (engl. integer).
 Temeljni cjelobrojni tip podatka dan je ključnom riječi int.
+Standard jezika definira kako je raspon vrijednosti koji int mora podržavati od −32768 do 32767, što odgovara 16-bitnom zapisu, gdje se jedan bit koristi za predznak.
+Ipak, veličina ovog tipa ovisi o računalnoj platformi i prevoditelju pa je za tip int uobičajen 32-bitni zapis čime je podržan raspon vrijednosti od −2147483647 do 2147483647.
+Ukoliko je potreban tip podatka koji podržava neki drugi raspon vrijednosti koristi se cjelobrojni tip long, short, unsigned ili signed (int).
+
+int main(){
+int x; //deklaracija tipa int
+int x=5; //inicijalizacija tipa int
+}
