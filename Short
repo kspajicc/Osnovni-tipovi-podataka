@@ -1,0 +1,20 @@
+Tip short obično ima 2 bajta i 16 bita, a oznaka formata je %hd.
+Svaki prevoditelj ima slobodu da odabere veličinu koja odgovara hardveru na kojem radi, uz ograničenje da short i int moraju biti najmanje 16 bita, a long najmanje 32 bita.
+Također, short ne smije biti duži od int, a int ne smije biti duži od long.
+Short se često koristi kada je potrebno štedjeti memoriju.
+Raspon vrijednosti koje short može pohraniti je od -32,768 do 32,767 
+
+#include <stdio.h>
+
+int main() {
+    // Deklaracija short varijable
+    short broj = 47;
+
+    // Ispis vrijednosti
+    printf("Vrijednost broja: %hd\n", broj);
+
+    return 0;
+}
+
+IZLAZ:
+Vrijednost broja:47
