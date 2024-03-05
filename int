@@ -1,1 +1,2 @@
-Jedan od osnovnih tipova podataka je cjelobrojni tip podatka (engl. integer).
+Jedan od osnovnih tipova podataka u programskom jeziku C je cjelobrojni tip podatka (engl. integer).
+Temeljni cjelobrojni tip podatka dan je ključnom riječi int.
