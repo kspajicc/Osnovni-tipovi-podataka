@@ -1,1 +1,17 @@
+Programski jezik C omogućuje rukovanje znakovima (engl. characters) poput znakova interpunkcije, slova i znamenki.
+Prilikom takvog rukovanja služi se tip podatka char iz kategorije cjelobrojnih tipova.
+Tip podataka char u pravilu obično koristi 8-bitni zapis. 
+Može biti sa ili bez predznaka ovisno o implementaciji prevoditelja.
+Ukoliko se želi osigurati da je na različitim sustavima s predznakom, može se koristiti ključna riječ signed (signed char). 
+U suprotnom ukoliko bi se željelo osigurati da je bez predznaka, može se upotrijebiti ključna riječ unsigned (unsigned char).
+Tip signed char u rasponu vrijednosti je od -128 do 127 dok je tip unsigned char od 0 do 255 te oni onda mogu biti korišteni i za rukovanje malim cjelobrojnim vrijednostima u programu.
+Što se tiče znanja o ASCII tablici praktički nije potrebno kako bi se koristili znakovi u tekstu programa jer je svaki znak između jednostrukih navodnika konstanta.
+Jednostruki navodnici su obvezni, a u suprotnom se smatra da zadani znak predstavlja ime varijable ili identifikator.
 
+
+
+Primjer:
+char c;           //deklaracija
+char znak = 'a'   //inicijalizacija 
+unsigned char;    //deklaracija
+signed char;      //deklaracija
