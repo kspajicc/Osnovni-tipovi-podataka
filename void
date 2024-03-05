@@ -1,4 +1,4 @@
-Jedan od tipova podataka je void.
+Jedan od osnovnoih tipova podataka u programskom jeziku C je void.
 Void je tip podatka koji ne vraća nikakav rezultat.
 Kada se void nalazi u zagradi nakon main funkcije, to znači da je funkcija takva da nema nikakve parametre odnosno ne prima argumente.
 
