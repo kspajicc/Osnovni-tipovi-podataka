@@ -5,3 +5,13 @@ tipu podatka. Prema standardu jezika mora najmanje podržavati raspon vrijednost
 10^−37 do 10^37 uz mogućnost predstavljanja barem šest značajnih znamenki (jednostavno
 rečeno, mora moći prikazati barem šest znamenki ispravno).
 Ukoliko je potrebna veća preciznost i eventualno veći raspon podržanih vrijednosti, nude se još dva realna tipa podatka: double i long double.
+
+Primjer:
+
+int main(void)
+{
+float a;
+double b; //predstavljanje barem 10 znacajnih znamenki
+long double c; //barem velicine tipa double
+return 0;
+}
