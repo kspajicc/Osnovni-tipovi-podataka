@@ -1,0 +1,41 @@
+/*long tip podatka se uglavnom sastoji od 4 bajta (ili 64 bita) te može sadržavati cijele brojeve od -2,147,483,648 do +2,147,483,647 na 32-bitnim kompajlerima,a na 64-bitnim kompajlerima ima duljnu 8 bajta te može sadrživati cijele brojeve od -9,223,372,036,854,775,808 do +9,223,372,036,854,775,807. 8-bajtna varijanta se može forsirati korištenjem long dvaput za redom.
+
+Oznaka formata mu je %ld.*/
+
+//kratki program za demonstraciju duljine različitih tipova podataka
+
+#include <stdio.h>
+ 
+int main()
+{
+    long longType;
+    int integerType;
+    long int longIntegerType;
+    long long int longLongIntegerType;
+    float floatType;
+    double doubleType;
+    long double longDoubleType;
+ 
+    // Računanje i prikazivanje različitih tipova podataka
+    printf("duljina long-a je: %ld\n", sizeof(longType));
+ 
+    printf("duljina int-a je: %ld\n",
+           sizeof(integerType));
+ 
+    printf("duljina long int-a: %ld\n",
+           sizeof(longIntegerType));
+ 
+    printf("duljina long long int-a je: %ld\n",
+           sizeof(longLongIntegerType));
+ 
+    printf("duljina float-a je: %ld\n",
+           sizeof(floatType));
+ 
+    printf("duljina double je: %ld\n",
+           sizeof(doubleType));
+ 
+    printf("duljina long double je: %ld\n",
+           sizeof(longDoubleType));
+ 
+    return 0;
+}
