@@ -1,0 +1,29 @@
+PODJELA OSNOVNIH TIPOVA PODATAKA
+Programski jezik C ima podršku za dvije kategorije podataka to su: cjelobrojni i realni. Obje 
+kategorije dolaze u nekoliko varijanti ili tipova, a razlikuju se u rasponu vrijednosti koje podržavaju.
+Cjelobrojni tipovi podataka 
+• int broj; // deklaracija – možemo zapisati kao: signed int broj; 
+• long int a = 140772; // inicijalizacija - možemo zapisati kao: long a = 140772; 
+• unsigned int x , y; // deklaracija - možemo zapisati kao: unsigned x, y; 
+• short int n = -1245; // inicijalizacija - možemo zapisati kao: short n = -1245; 
+• unsigned short int h; // deklaracija - možemo zapisati kao: unsigned short h; 
+• unsigned long int l; // deklaracija - možemo zapisati kao: unsigned long l; 
+Cjelobrojne konstante
+• konstanta 17 je tipa int 
+• konstanta 17L (ili 17l) tipa long 
+• konstanta 17UL tipa unsigned long 
+• možemo ih pisati u oktalnom i heksadecimalnom brojevnom sustavu 
+Realni tipovi podataka 
+Float – 32-bitni tip podatka 
+• float broj; // deklaracija 
+• float m = -1.25; // inicijalizacija 
+Double – 64-bitni zapis 
+• double np , mp; // deklaracija 
+• double a = 10.04; // inicijalizacija 
+Precizniji i može podržavati veći raspon vrijednosti 
+• long double h; // deklaracija 
+Realne konstante
+• konstanta 10.12 je tipa double 
+• konstanta 10.12F (ili 10.12f) tipa float 
+• konstanta 10.12L (ili 10.12l) tipa long double 
+• konstanta 101.0, možemo zapisati pomoću slova e ili E, 1.01E2 (ili 1.01e2)
