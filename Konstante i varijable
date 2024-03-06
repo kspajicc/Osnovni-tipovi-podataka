@@ -1,0 +1,7 @@
+Podaci u programu mogu biti promjenjivi i nepromjenjivi.
+Konstante su nepromjenjive, a varijablama se može pridružiti i mijenjati vrijednost.
+Svaka konstanta i varijabla predstavlja određeni tip podatka.
+Konstanta je vrijednost zapisana u tekstu programa, a varijabla je spremnik za podatak.
+Varijable je nužno deklarirati, deklaracija obuhvaća tip podatka i ime, deklaracija se nalazi na početku imenovanog ili neimenovanog bloka. 
+Deklariranim varijablama je moguće pridružiti vrijednost; nakon deklaracije nemaju konkretnu vrijednost.
+Varijable je, također, moguće inicijalizirati.
