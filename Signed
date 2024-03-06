@@ -8,7 +8,7 @@ Primjer:
 #include <stdio.h>
 
 int main() {
-	int balance = -500;
+	int stanje = -500;
 	printf("Stanje računa: $%d\n", stanje);
 	return 0;
 }
