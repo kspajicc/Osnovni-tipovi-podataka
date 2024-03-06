@@ -1,0 +1,16 @@
+
+"Signed" kvalifikatori, u programiranju, mogu predstavljati i pozitivne i negativne cijele brojeve. Oni dodjeljuju jedan bit, koji predstavlja predznak (0 za pozitivan, 1 za negativan), a preostali bitovi predstavljaju veličinu.
+Ovaj se tip podataka naširoko koristi u programiranju i ima nekoliko karakteristika.
+Raspon "signed" kvalifikatora ovisi o broju bitova dodijeljenih za prikaz veličine. Na primjer, 16-bitni cijeli broj s predznakom može predstavljati vrijednosti od -32.768 do 32.767. 
+Primjena: "Signed" varijable koriste se kada numeričke vrijednosti imaju pozitivne i negativne interpretacije. Na primjer, nalaze primjenu u predstavljanju financijskih transakcija, koordinata i količina s pozitivnim ili negativnim vrijednostima.
+
+Primjer:
+#include <stdio.h>
+
+int main() {
+	int balance = -500;
+	printf("Stanje računa: $%d\n", stanje);
+	return 0;
+}
+U ovom smo primjeru varijablu stanja na računu deklarirali kao int, "signed" tip podatka. Inicijalizirali smo ga s vrijednošću -500 da predstavlja negativno stanje računa. Kada ispišemo vrijednost stanja, ona pokazuje točan izlaz s negativnim predznakom.
+
